@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BBF56FE185E3472005D6145 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BBF56FD185E3472005D6145 /* Foundation.framework */; };
+		0BBF5700185E3472005D6145 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BBF56FF185E3472005D6145 /* CoreGraphics.framework */; };
+		0BBF5702185E3472005D6145 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BBF5701185E3472005D6145 /* UIKit.framework */; };
+		0BBF5708185E3472005D6145 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0BBF5706185E3472005D6145 /* InfoPlist.strings */; };
+		0BBF570A185E3472005D6145 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBF5709185E3472005D6145 /* main.m */; };
+		0BBF570E185E3472005D6145 /* MikoMartinAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBF570D185E3472005D6145 /* MikoMartinAppDelegate.m */; };
+		0BBF5711185E3472005D6145 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BBF570F185E3472005D6145 /* Main.storyboard */; };
+		0BBF5714185E3472005D6145 /* MikoMartinMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBF5713185E3472005D6145 /* MikoMartinMasterViewController.m */; };
+		0BBF5717185E3472005D6145 /* MikoMartinDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBF5716185E3472005D6145 /* MikoMartinDetailViewController.m */; };
+		0BBF5719185E3472005D6145 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BBF5718185E3472005D6145 /* Images.xcassets */; };
+		0BBF5720185E3472005D6145 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BBF571F185E3472005D6145 /* XCTest.framework */; };
+		0BBF5721185E3472005D6145 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BBF56FD185E3472005D6145 /* Foundation.framework */; };
+		0BBF5722185E3472005D6145 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BBF5701185E3472005D6145 /* UIKit.framework */; };
+		0BBF572A185E3472005D6145 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0BBF5728185E3472005D6145 /* InfoPlist.strings */; };
+		0BBF572C185E3472005D6145 /* Plain_NotesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBF572B185E3472005D6145 /* Plain_NotesTests.m */; };
+		0BBF5738185E37C0005D6145 /* MikoMartinData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBF5737185E37C0005D6145 /* MikoMartinData.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0BBF5723185E3472005D6145 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BBF56F2185E3472005D6145 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BBF56F9185E3472005D6145;
+			remoteInfo = "Plain Notes";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BBF56FA185E3472005D6145 /* Plain Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Plain Notes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BBF56FD185E3472005D6145 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0BBF56FF185E3472005D6145 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0BBF5701185E3472005D6145 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0BBF5705185E3472005D6145 /* Plain Notes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Plain Notes-Info.plist"; sourceTree = "<group>"; };
+		0BBF5707185E3472005D6145 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0BBF5709185E3472005D6145 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0BBF570B185E3472005D6145 /* Plain Notes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Plain Notes-Prefix.pch"; sourceTree = "<group>"; };
+		0BBF570C185E3472005D6145 /* MikoMartinAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MikoMartinAppDelegate.h; sourceTree = "<group>"; };
+		0BBF570D185E3472005D6145 /* MikoMartinAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MikoMartinAppDelegate.m; sourceTree = "<group>"; };
+		0BBF5710185E3472005D6145 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0BBF5712185E3472005D6145 /* MikoMartinMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MikoMartinMasterViewController.h; sourceTree = "<group>"; };
+		0BBF5713185E3472005D6145 /* MikoMartinMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MikoMartinMasterViewController.m; sourceTree = "<group>"; };
+		0BBF5715185E3472005D6145 /* MikoMartinDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MikoMartinDetailViewController.h; sourceTree = "<group>"; };
+		0BBF5716185E3472005D6145 /* MikoMartinDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MikoMartinDetailViewController.m; sourceTree = "<group>"; };
+		0BBF5718185E3472005D6145 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0BBF571E185E3472005D6145 /* Plain NotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Plain NotesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BBF571F185E3472005D6145 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0BBF5727185E3472005D6145 /* Plain NotesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Plain NotesTests-Info.plist"; sourceTree = "<group>"; };
+		0BBF5729185E3472005D6145 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0BBF572B185E3472005D6145 /* Plain_NotesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Plain_NotesTests.m; sourceTree = "<group>"; };
+		0BBF5735185E3632005D6145 /* 114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 114.png; path = "../../Ex_Files_NoteTaking_iOS/Exercise Files/assets/114.png"; sourceTree = "<group>"; };
+		0BBF5736185E37C0005D6145 /* MikoMartinData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MikoMartinData.h; path = ../MikoMartinData.h; sourceTree = "<group>"; };
+		0BBF5737185E37C0005D6145 /* MikoMartinData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MikoMartinData.m; path = ../MikoMartinData.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BBF56F7185E3472005D6145 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BBF5700185E3472005D6145 /* CoreGraphics.framework in Frameworks */,
+				0BBF5702185E3472005D6145 /* UIKit.framework in Frameworks */,
+				0BBF56FE185E3472005D6145 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BBF571B185E3472005D6145 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BBF5720185E3472005D6145 /* XCTest.framework in Frameworks */,
+				0BBF5722185E3472005D6145 /* UIKit.framework in Frameworks */,
+				0BBF5721185E3472005D6145 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BBF56F1185E3472005D6145 = {
+			isa = PBXGroup;
+			children = (
+				0BBF5735185E3632005D6145 /* 114.png */,
+				0BBF5703185E3472005D6145 /* Plain Notes */,
+				0BBF5725185E3472005D6145 /* Plain NotesTests */,
+				0BBF56FC185E3472005D6145 /* Frameworks */,
+				0BBF56FB185E3472005D6145 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0BBF56FB185E3472005D6145 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BBF56FA185E3472005D6145 /* Plain Notes.app */,
+				0BBF571E185E3472005D6145 /* Plain NotesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0BBF56FC185E3472005D6145 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BBF56FD185E3472005D6145 /* Foundation.framework */,
+				0BBF56FF185E3472005D6145 /* CoreGraphics.framework */,
+				0BBF5701185E3472005D6145 /* UIKit.framework */,
+				0BBF571F185E3472005D6145 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0BBF5703185E3472005D6145 /* Plain Notes */ = {
+			isa = PBXGroup;
+			children = (
+				0BBF5736185E37C0005D6145 /* MikoMartinData.h */,
+				0BBF5737185E37C0005D6145 /* MikoMartinData.m */,
+				0BBF570C185E3472005D6145 /* MikoMartinAppDelegate.h */,
+				0BBF570D185E3472005D6145 /* MikoMartinAppDelegate.m */,
+				0BBF570F185E3472005D6145 /* Main.storyboard */,
+				0BBF5712185E3472005D6145 /* MikoMartinMasterViewController.h */,
+				0BBF5713185E3472005D6145 /* MikoMartinMasterViewController.m */,
+				0BBF5715185E3472005D6145 /* MikoMartinDetailViewController.h */,
+				0BBF5716185E3472005D6145 /* MikoMartinDetailViewController.m */,
+				0BBF5718185E3472005D6145 /* Images.xcassets */,
+				0BBF5704185E3472005D6145 /* Supporting Files */,
+			);
+			path = "Plain Notes";
+			sourceTree = "<group>";
+		};
+		0BBF5704185E3472005D6145 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0BBF5705185E3472005D6145 /* Plain Notes-Info.plist */,
+				0BBF5706185E3472005D6145 /* InfoPlist.strings */,
+				0BBF5709185E3472005D6145 /* main.m */,
+				0BBF570B185E3472005D6145 /* Plain Notes-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0BBF5725185E3472005D6145 /* Plain NotesTests */ = {
+			isa = PBXGroup;
+			children = (
+				0BBF572B185E3472005D6145 /* Plain_NotesTests.m */,
+				0BBF5726185E3472005D6145 /* Supporting Files */,
+			);
+			path = "Plain NotesTests";
+			sourceTree = "<group>";
+		};
+		0BBF5726185E3472005D6145 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0BBF5727185E3472005D6145 /* Plain NotesTests-Info.plist */,
+				0BBF5728185E3472005D6145 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0BBF56F9185E3472005D6145 /* Plain Notes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BBF572F185E3472005D6145 /* Build configuration list for PBXNativeTarget "Plain Notes" */;
+			buildPhases = (
+				0BBF56F6185E3472005D6145 /* Sources */,
+				0BBF56F7185E3472005D6145 /* Frameworks */,
+				0BBF56F8185E3472005D6145 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Plain Notes";
+			productName = "Plain Notes";
+			productReference = 0BBF56FA185E3472005D6145 /* Plain Notes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0BBF571D185E3472005D6145 /* Plain NotesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BBF5732185E3472005D6145 /* Build configuration list for PBXNativeTarget "Plain NotesTests" */;
+			buildPhases = (
+				0BBF571A185E3472005D6145 /* Sources */,
+				0BBF571B185E3472005D6145 /* Frameworks */,
+				0BBF571C185E3472005D6145 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BBF5724185E3472005D6145 /* PBXTargetDependency */,
+			);
+			name = "Plain NotesTests";
+			productName = "Plain NotesTests";
+			productReference = 0BBF571E185E3472005D6145 /* Plain NotesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0BBF56F2185E3472005D6145 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MikoMartin;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "MikoMartin Mobile";
+				TargetAttributes = {
+					0BBF571D185E3472005D6145 = {
+						TestTargetID = 0BBF56F9185E3472005D6145;
+					};
+				};
+			};
+			buildConfigurationList = 0BBF56F5185E3472005D6145 /* Build configuration list for PBXProject "Plain Notes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0BBF56F1185E3472005D6145;
+			productRefGroup = 0BBF56FB185E3472005D6145 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0BBF56F9185E3472005D6145 /* Plain Notes */,
+				0BBF571D185E3472005D6145 /* Plain NotesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0BBF56F8185E3472005D6145 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BBF5719185E3472005D6145 /* Images.xcassets in Resources */,
+				0BBF5708185E3472005D6145 /* InfoPlist.strings in Resources */,
+				0BBF5711185E3472005D6145 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BBF571C185E3472005D6145 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BBF572A185E3472005D6145 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BBF56F6185E3472005D6145 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BBF5717185E3472005D6145 /* MikoMartinDetailViewController.m in Sources */,
+				0BBF5738185E37C0005D6145 /* MikoMartinData.m in Sources */,
+				0BBF5714185E3472005D6145 /* MikoMartinMasterViewController.m in Sources */,
+				0BBF570A185E3472005D6145 /* main.m in Sources */,
+				0BBF570E185E3472005D6145 /* MikoMartinAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BBF571A185E3472005D6145 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BBF572C185E3472005D6145 /* Plain_NotesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0BBF5724185E3472005D6145 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0BBF56F9185E3472005D6145 /* Plain Notes */;
+			targetProxy = 0BBF5723185E3472005D6145 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0BBF5706185E3472005D6145 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BBF5707185E3472005D6145 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0BBF570F185E3472005D6145 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BBF5710185E3472005D6145 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0BBF5728185E3472005D6145 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BBF5729185E3472005D6145 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0BBF572D185E3472005D6145 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0BBF572E185E3472005D6145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0BBF5730185E3472005D6145 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Plain Notes/Plain Notes-Prefix.pch";
+				INFOPLIST_FILE = "Plain Notes/Plain Notes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0BBF5731185E3472005D6145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Plain Notes/Plain Notes-Prefix.pch";
+				INFOPLIST_FILE = "Plain Notes/Plain Notes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0BBF5733185E3472005D6145 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Plain Notes.app/Plain Notes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Plain Notes/Plain Notes-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Plain NotesTests/Plain NotesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0BBF5734185E3472005D6145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Plain Notes.app/Plain Notes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Plain Notes/Plain Notes-Prefix.pch";
+				INFOPLIST_FILE = "Plain NotesTests/Plain NotesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BBF56F5185E3472005D6145 /* Build configuration list for PBXProject "Plain Notes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BBF572D185E3472005D6145 /* Debug */,
+				0BBF572E185E3472005D6145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BBF572F185E3472005D6145 /* Build configuration list for PBXNativeTarget "Plain Notes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BBF5730185E3472005D6145 /* Debug */,
+				0BBF5731185E3472005D6145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0BBF5732185E3472005D6145 /* Build configuration list for PBXNativeTarget "Plain NotesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BBF5733185E3472005D6145 /* Debug */,
+				0BBF5734185E3472005D6145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0BBF56F2185E3472005D6145 /* Project object */;
+}
